@@ -1,5 +1,5 @@
 import Head from "next/head";
-import HomeDesktop from "../components/HomeDesktop";
+import HomeDesktop from "../components/homeDesktop";
 import LeftSidePage from "../components/leftSidePage";
 import HomeMobile from "../components/HomeMobile";
 import styles from "../styles/Home.module.scss";

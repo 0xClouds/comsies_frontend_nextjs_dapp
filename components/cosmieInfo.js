@@ -41,8 +41,8 @@ export default function CosmieInfo({ index, closeModal }) {
             <div className={styles.elements}>
               <h4>ELEMENTS</h4>
               <div className={styles.elementsContainer}>
-                <Image src={images[index].element_1}></Image>
-                <Image src={images[index].element_2}></Image>
+                <Image src={images[index].element_1} alt="one of 10 elements of the Cosmies"></Image>
+                <Image src={images[index].element_2}  alt="one of 10 elemenets of the Cosmies"></Image>
               </div>
             </div>
           </div>
@@ -69,8 +69,8 @@ export default function CosmieInfo({ index, closeModal }) {
             <div className={styles.elements}>
               <h4>ELEMENTS</h4>
               <div className={styles.elementsContainer}>
-                <Image src={images[index].alt_element_1}></Image>
-                <Image src={images[index].alt_element_2} a></Image>
+                <Image src={images[index].alt_element_1} alt="one of 10 elements of the Cosmies"></Image>
+                <Image src={images[index].alt_element_2} alt="one of 10 elements of the Cosmies"></Image>
               </div>
             </div>
           </div>

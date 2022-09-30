@@ -20,6 +20,8 @@ export default function MobileNav({ currentPage }) {
                         layout="fixed"
                         width={75}
                         height={75}
+
+                        alt="The Cosmies Logo"
                     ></Image>
                 </div>
                 <div

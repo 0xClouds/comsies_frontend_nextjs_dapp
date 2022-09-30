@@ -11,7 +11,7 @@ export default function ArtistInfo({ name }) {
         <span>Get to know whos behind the project</span>
       </div>
       <div className={styles.about}>
-        <Image src={Sisto}></Image>
+        <Image src={Sisto} alt="pixel image of the artist Sisto"></Image>
         <div className={styles.infoContainer}>
           <div className={styles.artistName}>
             <h4>{name}</h4>
