@@ -31,3 +31,43 @@
     }
   }
 }
+
+@media all and (min-width: 1200px){
+  .mainContainer{
+    padding:0 2rem;
+    height:100%;
+
+    .about{
+      display: flex;
+      flex-direction: row;
+      height:50%;
+      gap:2rem;
+      margin-top: 2rem;
+
+      img{
+        border-radius: 10px;
+      }
+
+    
+     .infoContainer{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      margin-top:2rem;
+  
+      .artistName{
+        justify-content: flex-start;
+      }
+      
+      
+      .artistDescription{
+        font-size: .75rem;
+        width:80%;
+        margin-bottom: 5rem;
+        
+      }
+     }
+      
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import styles from "../styles/Artist.module.scss";
+import styles from "../styles/ArtistInfo.module.scss";
 import Image from "next/image";
 import Sisto from "../public/images/sisto.png";
 import Flag from "../public/images/icons/flag";
@@ -11,13 +11,13 @@ export default function ArtistInfo({ name }) {
         <span>Get to know whos behind the project</span>
       </div>
       <div className={styles.about}>
-        <Image src={Sisto} alt="pixel image of the artist Sisto"></Image>
+        <Image src={Sisto} className={styles.artistImg} alt="pixel image of the artist Sisto" ></Image>
         <div className={styles.infoContainer}>
           <div className={styles.artistName}>
             <h4>{name}</h4>
             <Flag></Flag>
           </div>
-          <p>
+          <p className={styles.artistDescription}>
             Sisto Hokkate was born on 28th October, 1998, on Spain, Andalusian.
             He is a Non-Binary artist and animator, their pronouns are all.
             <br></br>
